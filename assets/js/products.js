@@ -23,7 +23,8 @@ AddNewProductToList = (val) => {
     name = name.split("|")[0];
     name = name.trim();
     var price = val.price;
-    var price2 = price + (price * 0.25);
+    price = price + (price * 0.18);
+    var price2 = price + (price * 0.40);
     price = price.toFixed(2);
     price = price.toString().replace(".", ",");
     price2 = price2.toFixed(2);
