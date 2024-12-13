@@ -307,9 +307,9 @@
                                             </svg>
                     </div>
                 </div>
-                <div style="display: none;" class="w-[15vw] h-full  flex items-center justify-end gap-2">
+                <div  class="w-[15vw] h-full   cursor-pointer flex items-center justify-end gap-2">
                     <div class="w-[2.5vw] h-[2.5vw] rounded-full relative flex justify-center items-center " style="border : 1px solid #3E3E3E"
-                        onclick=""
+                        onclick="location = 'https://0resmon.tebex.io/checkout/basket'"
                     >
                         
                                                   <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -317,7 +317,7 @@
                         </svg>
 
                     </div>
-                    <div class="w-[2.5vw] cursor-pointer h-[2.5vw] rounded-full flex justify-center items-center"  onclick="location = '/login'"   data-tooltip-target="tooltip-animation" style="border : 1px solid #3E3E3E" >
+                    <div class="w-[2.5vw] cursor-pointer h-[2.5vw] rounded-full flex justify-center items-center"  onclick="location = 'https://0resmon.tebex.io/login'"   data-tooltip-target="tooltip-animation" style="border : 1px solid #3E3E3E" >
                         <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M18.5358 16.4159C17.3514 14.3372 15.502 12.7175 13.2853 11.8176C14.3876 10.9908 15.2019 9.83817 15.6128 8.5229C16.0236 7.20763 16.0102 5.79643 15.5745 4.48919C15.1388 3.18195 14.3027 2.04496 13.1849 1.23926C12.067 0.433557 10.724 0 9.34608 0C7.96813 0 6.62512 0.433557 5.50727 1.23926C4.38942 2.04496 3.55341 3.18195 3.11766 4.48919C2.68192 5.79643 2.66853 7.20763 3.07939 8.5229C3.49025 9.83817 4.30453 10.9908 5.40689 11.8176C3.19016 12.7175 1.34074 14.3372 0.156349 16.4159C0.0829605 16.5339 0.034047 16.6655 0.012517 16.8028C-0.00901295 16.9401 -0.00272003 17.0803 0.0310218 17.2151C0.0647636 17.3499 0.125266 17.4765 0.208931 17.5875C0.292596 17.6984 0.397716 17.7914 0.518042 17.861C0.638368 17.9305 0.771444 17.9751 0.909358 17.9922C1.04727 18.0092 1.18721 17.9984 1.32085 17.9603C1.45449 17.9222 1.5791 17.8576 1.68729 17.7704C1.79547 17.6831 1.88501 17.5751 1.95058 17.4525C3.5159 14.7469 6.28025 13.1332 9.34608 13.1332C12.4119 13.1332 15.1763 14.7478 16.7416 17.4525C16.8837 17.6811 17.1091 17.8454 17.3702 17.9107C17.6312 17.976 17.9074 17.9373 18.1404 17.8027C18.3735 17.6681 18.545 17.4481 18.6188 17.1893C18.6926 16.9305 18.6628 16.6532 18.5358 16.4159ZM4.85401 6.56792C4.85401 5.67947 5.11747 4.81098 5.61106 4.07226C6.10466 3.33355 6.80622 2.75779 7.62704 2.41779C8.44786 2.0778 9.35107 1.98884 10.2224 2.16217C11.0938 2.33549 11.8942 2.76332 12.5225 3.39155C13.1507 4.01978 13.5785 4.82019 13.7518 5.69156C13.9252 6.56294 13.8362 7.46614 13.4962 8.28696C13.1562 9.10778 12.5805 9.80934 11.8417 10.3029C11.103 10.7965 10.2345 11.06 9.34608 11.06C8.15513 11.0586 7.01335 10.5849 6.17123 9.74278C5.3291 8.90065 4.85539 7.75887 4.85401 6.56792Z" fill="#3E3E3E "/>
 </svg>
@@ -327,12 +327,12 @@
                             <div class="tooltip-arrow" data-popper-arrow></div>
                         </div>
                     
-                    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white  font-bold fontinter rounded-3xl text-sm px-7 py-2 text-center inline-flex items-center h-[2.5vw] text-2xl " style="border : 1px solid #3E3E3E"  type="button">EUR <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <button id="dropdownDefaultButton" style="display: none;" data-dropdown-toggle="dropdown" class="text-white  font-bold fontinter rounded-3xl text-sm px-7 py-2 text-center inline-flex items-center h-[2.5vw] text-2xl " style="border : 1px solid #3E3E3E"  type="button">EUR <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
 </svg>
 </button>
 
-        <div id="dropdown" class="z-10 hidden bg-[#0A0A0A] divide-y divide-gray-100 rounded-lg shadow md:w-[15vw] w-[60vw] dark:bg-gray-700">
+        <div  id="dropdown" class="z-10 hidden bg-[#0A0A0A] divide-y divide-gray-100 rounded-lg shadow md:w-[15vw] w-[60vw] dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                                     <li>
                     <a href="?currency=AUD" class="block px-4 py-2 hover:bg-gray-100 text-xl text-[#525252] hover:bg-transparent fontinter font-bold  dark:hover:text-white">AUD</a>
